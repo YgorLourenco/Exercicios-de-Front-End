@@ -1,0 +1,23 @@
+*{
+	margin:0;
+	padding: 0;
+}
+html,body{
+	height: 100%;
+}
+.center{
+/*box-sizing cria uma caixa onde ira virar um limitador*/
+	box-sizing: border-box;
+	width: 1280px;
+	margin:0 auto;
+	background-color: gray;
+/*Criam espaçamentos internos em todas as direções*/
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.artigo{
+	width: 100%;
+	margin-bottom: 40px;
+}

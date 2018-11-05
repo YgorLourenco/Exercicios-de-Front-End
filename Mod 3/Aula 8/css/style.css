@@ -1,0 +1,25 @@
+*{
+	margin:0;
+	padding: 0;
+}
+html, body{
+	height: 100%;
+}
+.header{
+	width: 100%;
+/*Limita o campo para a uma altura minima, o min-height tem 
+uma prioridade maior*/
+	min-height: 1280px;
+	height: 200px;
+	background: gray;
+}
+.article{
+	margin:0 auto;
+	width: 1280px;
+	height: 10%;
+	max-height: 20%;
+/*Mesmo que tenha uma altura maxima, o min-height sera sempre
+a prioridade*/
+	min-height:50%;
+	background: red;
+}

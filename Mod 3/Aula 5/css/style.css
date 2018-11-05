@@ -1,0 +1,38 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*Deve dizer que corpo do site vai ter uma altura que ocupa 100%
+do site*/
+html,body{
+	height: 100%;
+}
+.artigo{
+/*se colocar largura automatico ele fica com o tamanho com base no navegador*/
+	width: 4%;
+/*Limita o maximo de largura*/
+	/*max-width: 300px;*/
+/*Altura e sempre automatico*/
+	/*height: auto;*/
+	background-color: rgb(200,200,200);
+	text-align: center;
+}
+.artigo h1{
+
+	color: rgb(66, 149, 244);
+	font-size: 23px;
+	font-family: "Times New Roma", Times, serif;
+	font-style: normal;
+	font-weight: normal;
+	/*font-variant: small-caps;*/
+}
+
+.artigo p{
+	color: #b4b4b4;
+	text-align: left;
+	font-size: 17px;
+	font-style: normal;
+	font-weight: bold;
+	margin-top:12px;
+	line-height: 40px;
+}

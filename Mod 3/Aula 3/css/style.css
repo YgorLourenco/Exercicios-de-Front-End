@@ -1,0 +1,48 @@
+/*resetar o navegador*/
+*{
+	margin: 0;
+	padding: 0;
+}
+.menu{
+/*padrão do tamanho e alinhamento de uma div*/
+	display: block;
+/*Largura do menu*/
+	width: 900px;
+/*Dita a cor de fundo*/
+	background-color: red;
+/*margin e espaçamento externo do site sendo o primeiro ditando cima e embaixo
+e o outro direta e esquerda*/
+/*valor "auto" centraliza o texto*/
+	margin: 0 auto;
+/*Margem pode tambem ser mudada por varias direções*/
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+/*Ou pode todos os lados terem o mesmo espaçamento*/
+	margin: 10px;
+/*Ou pode ditar a margem falando primeiro sobre encima e embaixo
+depois esquerda e direita*/
+	margin: 10px 50px;
+}
+/*div.menu por ser ainda mais especificada que .menu, influencia mais
+na formatação*/
+div.menu{
+	width: 400px;
+}
+a{
+	text-decoration: none;
+}
+.menu{
+	width: 900px;
+	margin: 30px auto;
+	text-align: center;
+}
+/*Pode se atarcar uma tag ".menu a{" ou ".menu > a{"*/
+.menu a{
+	color: red;
+	padding-right: 8px;
+	border-right:3px solid green;
+	font-size: 20px;
+	margin: 0 10px;
+}

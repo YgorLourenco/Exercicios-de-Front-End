@@ -1,0 +1,13 @@
+/*Para atarcar apenas a id="div1" e especificar para h1*/
+/*id so pode ser usado uma vez*/
+#div1 h1{
+	color: red;
+} 
+/*Para atarcar apenas a .class="div1" e especificar para h1*/
+/*class pode ser repetido com mais vezes*/
+.div1 h1{
+	color: red;
+}
+.div2 h1{
+	color: orange;
+}

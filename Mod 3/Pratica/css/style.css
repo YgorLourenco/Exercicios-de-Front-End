@@ -1,0 +1,47 @@
+*{
+	margin: 0;
+	padding:0;
+}
+
+html,body{
+	height: 100%;
+}
+.clear{
+	clear: both;
+}
+.container{
+	width: 1280px;
+	margin: 0 auto;
+	padding:0 2%;
+}
+.artigo{
+	color: pink;
+	border-left:2px;
+	float: left;
+	display: inline-block;
+	border-style: dotted;
+	border-color:black;
+	margin: 10px 10px;
+	padding: 100px 100px;
+	text-align: center;
+	font-size: 20px;
+	background-color: gray;
+	font-family: "Times New Roman"
+}
+.artigo h1{
+	color: white;
+	text-decoration: underline;
+	
+}
+.artigo > h1 > b:hover{
+	text-decoration: none;
+	font-size: 100px;
+	font-family: tahoma;
+	border-top: 10px solid green;
+}
+.artigo:hover{
+	text-decoration: underline;
+	background-color:yellow;
+	color: black;
+
+}

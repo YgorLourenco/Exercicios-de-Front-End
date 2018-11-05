@@ -1,0 +1,41 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.artigo{
+	width: 1280px;
+	background-color: rgb(200,200,200);
+	padding: 40px;
+	margin: 40px auto;
+	text-align: center;
+}
+/*h1 ate o h4 o font-weight e bold*/
+.artigo h1{
+/*Pode escolher a cor com o nome da cor ou hexadecimal(#) ou 
+rgb()*/
+	color: rgb(66, 149, 244);
+/*Pode colocar o tamanho por px ou 1em que e 100% do tamanho padrão*/
+	font-size: 23px;
+/*Dita o tipo de fonte, o primeiro e a fonte e os outros e pra caso o 
+navegador não achar*/
+/*Usar aspas duplas nas fontes com nome que tem espaços*/
+	font-family: "Times New Roma", Times, serif;
+/*Estilo de fonte como italico, normal e oblico*/
+	font-style: normal;
+/*Aplica negrito ou deixa a fonte normal*/
+	font-weight: normal;
+/*Variação de fonte que deixa em capslock as palavras em minusculo*/
+	font-variant: small-caps;
+}
+
+.artigo p{
+	color: #b4b4b4;
+	text-align: left;
+	font-size: 17px;
+	font-family: tahoma;
+	font-style: normal;
+	font-weight: bold;
+	margin-top:12px;
+/*configura a altura de cada quebra de linha*/
+	line-height: 40px;
+}

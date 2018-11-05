@@ -1,0 +1,33 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html, body{
+	height: 100%;
+}
+.clear{
+/*style="clear:both;" limpa e calcula o valor real que a div
+vai ter*/
+/*usar sempre este atributo quando mexer com float*/
+	clear: both;
+}
+.pai{
+	width: 1280px;
+	padding: 20px 0;
+	margin: 0 auto;
+	background: blue;
+}
+.child{
+	box-sizing: border-box;
+	width: 640px;
+	height: 300px;
+	background: red;
+/*Posiciona todos os elementos a um lugar do espaço sem levar em consideração
+as configurações da classe pai"*/
+	float: left;
+	text-align: center;
+	font-size: 40px;
+	padding: 50px 0;
+	color: white;
+	border:1px solid black;
+}
