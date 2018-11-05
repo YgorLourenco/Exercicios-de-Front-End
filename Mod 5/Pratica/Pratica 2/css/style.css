@@ -1,0 +1,171 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif ;
+}
+body,html{
+	height:100%;
+}
+.center{
+	max-width: 1280px;
+	width: 100%;
+	margin: 0 auto;
+}
+.clear{
+	clear: both;
+}
+/*TOPO DO SITE*/
+.topo{
+	height: 60px;
+	width: 100%;
+	background-color: rgb(33, 35, 67);
+	padding:0 2%;
+}
+.topo img{
+	margin:15px;
+}
+/*BANNER DO SITE E FORMULARIO*/
+.banner{
+	width: 100%;
+	height: 557px;
+	padding: 0 2%;
+	background-image: url('../imagens/header_bg.png');
+	background-size: cover;
+	background-position:center; 
+}
+.lista{
+	width: 519px;
+	height: 270px;
+	padding: 30px;
+	background-color: rgba(33, 35, 67,0.7);
+	float: left;
+	margin-top: 100px;
+}
+.lista ul{
+	list-style-position: inside;
+}
+.lista li{
+	color: white;
+	margin-top: 18px;
+}
+.formulario{
+	width: 400px;
+	height: 590px;
+	padding: 10px;
+	float: right;
+	top: -15px;
+	background-color: white;
+	background-clip: padding-box;
+	position: relative;
+	border-style:solid;
+	border-width: 12px;
+	border-color: rgba(120,120,120,0.5);
+}
+.formulario h2{
+	font-weight: normal;
+	font-size: 21px;
+	color: #999999;
+}
+.texto{
+	margin-top: 20px;
+}
+.texto p{
+	display: inline-block;
+	width: 100%;
+	font-size: 17px;
+	color: #BBBBBB;
+}
+.texto input[type=text]{
+	width: 344px;
+	height: 55px;
+	margin-top: 8px;
+	border:1px solid #ccc;
+}
+.aviso{
+	display: inline-block;
+	margin: 20px 0;
+	font-size: 17px;
+	width: 100%;
+	color: #BBBBBB;
+}
+.botao{
+	text-align: center;
+}
+.botao input[type=submit]{
+	width: 280px;
+	height: 56px;
+	font-size: 25px;
+	cursor: pointer;
+	background-color: #363A6D;
+	color: white;
+	border-bottom: 5px solid #4A5097;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	margin-bottom: 8px;
+	margin-top: 20px;
+}
+
+
+/*SEÇÃO SOBRE DO SITE*/
+.sobre{
+	width: 100%;
+	height: 315px;
+	padding: 40px 2%;
+	background-color: #ddd;
+	text-align: center;
+}
+.sobre h2{
+	font-weight: normal;
+}
+.sobre p{
+	width: 768px;
+	height: 132px;
+	display: inline-block;
+	text-align: justify;
+	margin-top:20px;
+}
+.arrow{
+	background-image:url('../imagens/arrow.png'); 
+	width: 70px;
+	background-size: 100%;
+}
+/*SEÇÃO DE ICONES*/
+.icones{
+	padding: 90px 2%;
+}
+.icones h2{
+	font-weight: normal;
+	color: rgb(33, 35, 67);
+	text-align: center;
+}
+.container-geral{
+	margin-top: 40px;
+	text-align: center;
+}
+.container-unico{
+	width: 33.3%;
+	float: left;
+	padding: 30px;
+}
+.container-unico img{
+	width: 70px;
+}
+.container-unico h2{
+	margin: 10px 0;
+}
+.container-unico p{
+	text-align: justify;
+	display: inline-block;
+}
+/*SEÇÃO DE RODAPE*/
+.rodape{
+	border-top: 3px solid #888888;
+	padding:20px 0;
+	text-align: center;
+	color: #888;
+}
+.rodape p{
+	margin-top: 8px;
+}

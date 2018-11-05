@@ -1,0 +1,19 @@
+*{
+	margin:0;
+	padding: 0;
+}
+.parent{
+	width: 50%;
+	height: 400px;
+	background-color: orange;
+}
+.box{
+/*a classe box tem metade da largura dos
+50% da classe parent*/
+	width: 50%;
+/*margem de 50% dentro da classe parent*/
+	margin-left: 50%;
+	padding-top: 25%;
+	display: inline-block;
+	background-color: gray;
+}

@@ -1,0 +1,42 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	height: 100%;
+}
+/*
+.sidebar{
+	width: 300px;
+	height: 100%;
+	background: black;
+	float: left;
+}
+.content{
+	float: left;
+	width: calc(100% - 300px);
+	height: 100%;
+	background: #ccc;
+}
+*/
+/*
+.box{
+	width: calc((100% / 3) + 90px);
+	height: 90px;
+	background: red;
+}
+*/
+
+.box{
+/*vw tambem não leva consideração o limite 
+do site criando uma scroll bar embaixo */
+/*vh tambem não leva consideração o limite 
+do site criando uma scroll bar embaixo */
+	width: 100vw;
+	height: 100vh;
+	background-color:red;
+}
+.box2{
+	width: 200%;
+	height: 10px;
+}
