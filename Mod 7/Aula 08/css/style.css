@@ -1,0 +1,28 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+main{
+/*display:flex; calcula como tabela
+os elementos*/
+	display: flex;
+/*align-items alinha os itens*/
+	align-items: center;
+/*flex-direction muda a posição das linhas*/
+/*row-reverse inverte a posiçõo das linhas*/
+/*column coloca as linhas como colunas*/
+/*column-reverse inverte a posição das colunas*/
+	flex-direction: column;
+}
+aside{
+/*order dita a ordem dos elementos*/
+	order:2;
+	background: #ccc;
+	padding:90px 20px;
+}
+article{
+	order:1;
+	padding:30px;
+	background: gray;
+}

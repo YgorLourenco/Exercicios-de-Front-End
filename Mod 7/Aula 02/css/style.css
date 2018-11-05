@@ -1,0 +1,34 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+div.box{
+	width: 300px;
+	height: 300px;
+	position: relative;
+	background: green;	
+}
+div.box:hover{
+	animation:animacao_1 2s 2;
+	animation-delay: 2s;
+}
+@keyframes animacao_1{
+/*Trocar por porcentagem e querer dizer
+que em tal porcentagem começa a animação*/
+	0%{
+		left: 0;
+		top: 0px;
+		background-color: green;
+	}
+	25%{
+		left: 100px;
+		top: 10px;
+		background-color: orange;
+	}
+	100%{
+		left: 0;
+		top: 0px;
+		background-color: red;
+	}
+}
