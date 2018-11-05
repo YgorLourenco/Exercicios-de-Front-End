@@ -1,0 +1,129 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family:"Open Sans" ;
+}
+html,body{
+	height: 100%;
+}
+.container{
+	max-width: 1280px;
+	margin:0 auto;
+}
+.clear{
+	clear: both;
+}
+
+/*TOPO DO SITE E BANNER*/
+header{
+	width: 100%;
+/*vh e baseado no tamanho real da tela*/
+	height: 90vh;
+	padding: 40px 2%;
+	/*max-height: 700px;*/
+	background-size: cover;
+	background-position: center;
+	background-image: url('../imagens/capa.png');
+	font-weight: 300;
+}
+/*A logo mando os links de navegação pra baixo
+por estar com display:block;*/
+/*float:left; concerta isso*/
+header .logo{
+	float: left;
+	width: 160px;
+	height: 40px;
+	background: #ccc;
+}
+header nav{
+	float: right;
+}
+header nav ul{
+	list-style-type: none;
+}
+header nav li{
+	float: left;
+	padding:0 20px;
+}
+/*Sempre que se coloca o ">" deve seguir a ordem das tags*/
+/*Pode se deixar assim header > .container > nav > ul > li > a{*/
+header li > a{
+	text-decoration: none;
+	color: white;
+}
+.chamada1{
+	max-width: 600px;
+	float: right;
+	margin:140px 150px;
+}
+.chamada1 h2{
+	font-size: 40px;
+	color: white;
+	font-weight: 300;
+}
+.chamada1 p{
+	font-size: 15px;
+	color: white;
+	margin-top: 10px;
+}
+
+/*SEÇÃO 01*/
+section.sessao1{
+	width: 100%;
+	background-color: #472562;
+	padding: 0px 2%;
+	height: 400px;
+}
+section.sessao1 .container{
+	max-width: 1000px;
+}
+.texto-sessao1{
+	float: left;
+	color: white;
+	width: 50%;
+	margin-top: 60px;
+	padding-left: 80px;
+	position: relative;
+	left: 55px;
+}
+.texto-sessao1 h2{
+	font-size: 26px;
+	font-weight: 300;
+}
+.texto-sessao1 p{
+	font-size: 15px;
+	margin-top: 20px;
+}
+.texto-sessao1 ul{
+	font-size: 15px;
+	list-style-position: inside;
+}
+.texto-sessao1 ul li{
+	float: left;
+	width: 100%;
+	margin-top: 8px;
+}
+.btn1-texto{
+	background-color: #FF703D;
+	width: 165px;
+	height: 44px;
+	color: white;
+	margin-top: 10px;
+	cursor: pointer;
+	margin-top: 30px;
+	text-align: center;
+	line-height: 44px;
+	border-radius: 30px;
+	font-size: 13px;
+}
+.device-sessao1{
+	float: left;
+	width: 50%;
+	position: relative;
+	top:-30px;
+	height: 430px;
+	background-image: url(../imagens/device.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
