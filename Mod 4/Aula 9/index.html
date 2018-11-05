@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Titulo do meu site!</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<form>
+		<!--fieldset serve para criar um grupo de formlarios -->
+		<fieldset>
+			<legend>Meu grupo de formulario</legend>
+			<div><input type="text" name="" placeholder="Digite seu nome!"></div>
+			<div><input type="text" name="" placeholder="Digite seu e-mail!"></div>
+			<div>
+				<!--tag select cria uma barra de seleção escondida -->
+				<!-- --> 
+				<select name="lista">
+					<!--Atributo disabled deixa uma opção desabilitada -->
+					<!--Atributo selected deixa uma opção selecionada -->
+					<option disabled selected> Qual a sua idade?</option>
+					<option>20</option>
+					<option>25+</option>
+					<option>40</option>
+				</select>
+			</div>
+			<h2>Qual a sua cidade?</h2>
+			<div class="input">
+			<div>
+				<!--Colocar o mesmo 'name' com o mesmo nome para que não tenha a seleção de mais de um valor-->
+				<input type="radio" name="cidade" value=""><span>Florianopolis</span>
+			</div>
+			<div>
+				<input type="radio" name="cidade" value=""><span>São Paulo</span>
+			</div>
+			<div>
+				<input type="radio" name="cidade" value=""><span>Rio de Janeiro</span>
+			</div>
+			</div>
+			<h2>O que você gosta de comer?</h2>
+			<div class="input">
+			<div>
+				<input type="checkbox" name="cidade" value=""><span>Fruta</span>
+			</div>
+			<div>
+				<input type="checkbox" name="cidade" value=""><span>Fast Food</span>
+			</div>
+			<div>
+				<input type="checkbox" name="cidade" value=""><span>Salada</span>
+			</div>
+			</div>
+				<div>
+					<textarea placeholder="Possui alguma observação?"></textarea>
+				</div>
+				<div>
+					<input type="submit" name="acao" value="Enviar!">
+				</div>
+		</fieldset>
+	</form>
+</body>
+</html>

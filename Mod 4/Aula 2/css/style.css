@@ -1,0 +1,50 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html, body{
+	height: 100%;
+}
+.text[type=text]{
+	background-color: green;
+}
+input[type=submit]{
+	background-color: blue;
+}
+/*a[href] colocar um atributo entre colchetes e generalizar que
+todos os links dentro de href terão uma certa propriedade*/
+/*a[href = "http://www.google.com.br"] ira fazer efeito apenas
+no link do Google*/
+/*a[href = "http://www.google.com.br"]{
+	background-color: yellow;
+}
+*/ 
+/*Outra forma de especificar apenas para um link, que no caso
+tenha apenas a palavra Google*/
+/*a[attr~="google"] ira procurar entre as palavras que estão no 
+atributo e usar os estilo*/
+/*
+a[attr~="google"]{
+	background-color: blue;
+}
+*/
+/*a[attr|="google"] serve pra quando começar com uma letra e estar
+separado por "-" */
+/*
+a[attr|="google"]{
+	background-color: yellow;
+}
+*/
+/*a[attr^="goo"] toda palavra que começar com "goo" */
+/*
+a[attr^="goo"]{
+	background-color: red;
+}
+*/
+/*a[attr$="google"] se acabar com a palavra que esta entre aspas
+por ultimo */
+/*
+a[attr$="google"]{
+	background-color: yellow;
+}
+*/

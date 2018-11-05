@@ -1,0 +1,38 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	height: 100%;
+	font-family: "Open Sans";
+}
+/*Pra aplicar a fonte dentro 
+do formulario criado */
+form  *{
+	font-family: "Open Sans";
+}
+/*
+/*@font-face e para pegar uma fonte que esta
+em algum arquivo*/
+/*
+@font-face{
+	font-family: "Open Sans";
+	src:url('../fonts/OpenSans-Light.ttf');
+}
+.box p{
+	font-family: "Open Sans" !important;
+}
+.text{
+/*!important e para aumentar o nivel de
+especificação do valor*/
+/*Caso mais de uma classe tiver o !important
+quem estiver mais especificado ganha */
+/*
+	font-family: tahoma !important;
+}
+
+/*
+h2{
+	font-family: "Minha Fonte";
+}
+*/ 

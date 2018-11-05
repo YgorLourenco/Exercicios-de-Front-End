@@ -1,0 +1,64 @@
+*{
+	margin: 0;
+	padding:0;
+}
+html, body{
+	height: 100%;
+}
+.teste, .teste1, .teste2{
+	width: 300px;
+	margin-top: 30px;
+	margin-left: 30px;
+	display: inline-block;
+	height: 30px;
+	/*
+	background-color: #ccc;
+	*/
+}
+.teste1{
+	background-color: rgb(98,98,98);
+}
+.teste2{
+	background-color: rgb(50, 50, 50);
+}
+/*:hover e uma pseudo classe que cria um efeito
+que se ativa ao passar o mouse encima */
+/*
+.teste:hover{
+	background-color: blue;
+}
+.teste:hover .teste1, .teste2{
+	vertical-align: top;
+}
+*/
+/*:active serve para quando estamos com o mouse
+pressionado em cima do nosso elemento*/
+/*
+.teste:active{
+	background-color: black;
+}
+*/
+/*:focus serve para quando clicamos
+em cima do nosso elemento*/
+/*
+.teste:focus{
+	background-color: red;
+}
+.textarea1{
+	display: block;
+	width: 600px;
+	height: 400px;
+}
+*/
+/*:visited cria um link de modo que ele ja foi visitado
+mostranod isso com os atributos escolhidos, como por
+exemplo a cor roxa */
+/*
+.link1:visited{
+	color: purple;
+}
+*/
+/*:link cria um link coms os atributos especificados*/ 
+.link1:link{
+	color: orange;
+}

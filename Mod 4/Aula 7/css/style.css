@@ -1,0 +1,86 @@
+*{
+	margin: 0;
+	padding:0;
+}
+html, body{
+	height: 100%;
+}
+/*
+ul{
+/*list-style-position posiciona a lista dentro ou fora de uma tabela
+ou elemento, sendo 'inside' dentro e 'outside' fora*/
+	/*list-style-position: inside;
+}
+/*nth-of-type especifica um elemento dentro de uma lista para
+estilizar de maneira separada*/
+/*
+ul li:nth-of-type(2){
+	color: red;
+}
+*/
+/*:nth-child e para atacar qualquer um determinado elemento
+dentro da lista independente do tipo, sendo li ou não */
+/*
+ul li:nth-child(3){
+	color: red;
+}
+*/
+.box{
+	width: 100%;
+}
+.box > div{
+/*box-sizing: border-box; encaixam a largura e altura de 
+um objeto dentro de um espaço*/ 
+	box-sizing: border-box;
+	float: left;
+	width: 33.3%;
+	height: 400px;
+	background-color: red;
+	border: 1px solid black;
+}
+/*::after depois que ler o conteudo da tag
+vai inserir depois o que esta dentro*/
+.p::after{
+	content: ' Guilherme';
+	background-color: red;
+	margin-right: 
+}
+/*::before depois que ler o conteudo da tag
+vai inserir depois o que esta dentro*/
+.p::before{
+	content: 'Guilherme ';
+	background-color: yellow ;
+}
+/*:empty usa o efeito de baixo apenas para a tag que estiver
+vazia*/
+/*
+p:empty{
+	width: 200px;
+	height: 200px;
+	background-color: orange;
+}
+*/
+/*:not() tem como objetivo negar o efeito que ser aplicado
+na classe que estiver dentro dos parenteses*/
+/*
+.box div:not(.one){
+	background-color: gold;
+}
+*/
+/*:last-child ela ira utilizar o efeito no ultimo elemento
+dentro de uma classe, que seria no caso a ultima div */
+/*
+.box div:last-child p{
+	color: rgba(255,255,255,1);
+}
+/*:last-of-type ele aplica os efeitos no ultimo elemento
+da que veio antes, que no caso e a div */
+/*
+.box div:last-of-type{
+	background-color: green;
+}
+.box p:last-of-type{
+	color: rgb(200,200,200);
+	background-color: green;
+}
+*/

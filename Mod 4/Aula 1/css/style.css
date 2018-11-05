@@ -1,0 +1,25 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html, body{
+	height: 100%;
+}
+.box{
+	width: 40%;
+	height: 300px;
+	color: gray;
+}
+.box p{
+/*initial reseta o valor das ultimas classes e usa o valor padrão*/
+	color: initial;
+	margin: initial;
+}
+/*
+@media screen and (max-width: 480px){
+	.box{
+		/*Valor auto ele se adapta dependendo do valor em que o
+		tamanho da tela esta*/
+		/*height: auto; 
+	}
+}

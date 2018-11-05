@@ -1,0 +1,96 @@
+*{
+	margin: 0;
+	padding:0;
+}
+html, body{
+	height: 100%;
+}
+/* PARTE DO TAMANHO GERAL DO FORMULARIO! */ 
+form{
+	width: 96%;
+	max-width: 600px;
+	margin:30px auto;
+	text-align: center;
+}
+form fieldset{
+	padding: 20px 40px;
+	border:1px solid #ccc;
+}
+/*Titulo no topo*/
+form legend{
+	text-align: left;
+	font-size: 17px;
+	color: rgb(130,130,130);
+}
+/*Os dois primeiros inputs de texto*/
+form input[type=text]{
+	font-family:tahoma ;
+	display: inline-block;
+	margin-top: 30px;
+	width: 80%;
+	padding: 10px 13px;
+	border:1px solid #ccc;
+}
+form input[type=text]:focus, form select:focus, form textarea:focus{
+	outline: 0;
+}
+/*O terceiro input de marcação de idade*/
+form select{
+/*expressão calc serve para somar  
+porcentagem com ou não pixels*/
+	font-family: tahoma;
+	color: rgb(100,100,100);
+	width: calc(80% + 26px);
+	margin-top: 30px;
+	display: inline-block;
+	padding: 10px 13px;
+	border:1px solid #ccc;
+}
+/*Colorir uma das opções da idade*/
+/*
+form select option:nth-of-type(3){
+	color: red;
+}
+*/
+/*Colorir a opção desabilitada de laranja*/
+/*
+form select option[disabled]{
+	color: orange;
+}
+*/
+/*O quarto e quinto input de marcação de cidade e comida*/
+form h2{
+	 margin-top: 20px;
+	 color: rgb(100,100,100);
+}
+.input{
+	margin-top: 20px;
+	text-align: left;
+	display: inline-block;
+}
+.input span{
+	margin-left: 13px;
+	font-size: 16px;
+	color: rgb(130,130,130);
+}
+form textarea{
+	font-family: tahoma; 
+	margin-top: 30px;
+	width: 80%;
+	padding: 10px 30px;
+	resize: none;
+	border:1px solid #ccc;
+	height: 140px;
+}
+/*Botão de envio*/
+form input[type=submit]{
+	margin-top: 30px;
+	border: 0;
+	width: 140px;
+	height: 40px;
+	font-size: 16px;
+	cursor: pointer;
+	border:2px solid rgb(130,130,130);
+	color: white; 
+	background-color: rgb(140, 140, 140);
+}
